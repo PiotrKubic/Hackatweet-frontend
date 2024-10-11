@@ -8,3 +8,15 @@ body {
 * {
   box-sizing: border-box;
 }
+
+.ant-modal-content {
+  background-color: #111820 !important;
+}
+
+.ant-modal-close-x {
+  color: #343f4c !important;
+}
+
+.ant-modal-close-x:hover {
+  color: white !important;
+}
