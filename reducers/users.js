@@ -10,7 +10,9 @@ export const usersSlice = createSlice({
   reducers: {
     isUserConnected: (state, action) => {
       state.value.isConnected = true;
-      state.value.token = action.payload;
+      state.value.token = action.payload.token;
+      state.value.pseudo = action.payload.pseudo;
+      state.value.username = action.payload.username
     },
   },
 });

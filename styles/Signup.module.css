@@ -26,6 +26,7 @@
   width: 50%;
   font-size: 1em;
   font-weight: 500;
+  color: white;
 }
 
 .pseudoInput::placeholder,

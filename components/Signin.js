@@ -25,8 +25,8 @@ function Signin() {
     if (signinData.result) {
       setUsernameInput("");
       setPasswordInput("");
-      setIsSigninModalOpen(false);
-      dispatch(isUserConnected(signinData.token));
+
+      dispatch(isUserConnected({token:signupData.user.token, username: signupData.user.username, pseudo: signupData.user.pseudo}));
     } else {
       setPseudoInput("");
       setUsernameInput("");
