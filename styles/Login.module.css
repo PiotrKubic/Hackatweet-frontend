@@ -1,0 +1,82 @@
+.mainContainer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  width: 100vw;
+  height: 100vh;
+}
+
+.leftContainer {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-image: url("../public/background.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightContainer {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  background-color: #111820;
+  padding-left: 30px;
+  padding-top: 0px;
+}
+
+.logoSmall {
+  width: 75px;
+}
+
+.taglineContainer {
+  width: 50%;
+  margin-top: 75px;
+}
+
+.mainTagline {
+  color: white;
+  font-size: 5em;
+  font-weight: bolder;
+}
+
+.secondaryTagline {
+  color: white;
+  font-size: 2.5em;
+  font-weight: bolder;
+  margin-top: 40px;
+}
+
+.signUpButton {
+  background-color: #3385eb;
+  width: 20%;
+  min-width: 150px;
+  height: 50px;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 1.5em;
+  font-weight: bolder;
+  margin-top: 25px;
+  padding: 5px;
+}
+
+.accountQuestion {
+  background-color: transparent;
+  color: white;
+  font-weight: bolder;
+  font-size: 1.5em;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.signInButton {
+  background-color: transparent;
+  min-width: 150px;
+  width: 20%;
+  height: 50px;
+  color: #3385eb;
+  border: 2px solid #343f4c;
+  border-radius: 25px;
+  font-size: 1.5em;
+  font-weight: bolder;
+  padding: 5px;
+}
